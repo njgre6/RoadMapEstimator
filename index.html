@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">    
+    <style>
+    #map  {
+        height: 600px;
+        width: 100%;
+       }</style>
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Road Map Area Estimator</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" type = "text/css" href= "css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" type = "text/css" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" type = "text/css" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <div> Road Map Area Estimator</div>
+                        <!--End of Banner Logo-->
+
+                       
+                    </div>
+                    <!--End of Logo-->
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">Use</a>
+                            </li>
+                            <li>
+                                <a href="#services">Maps and Email</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">Calculator</a>
+                            </li>
+                            <li>
+                                <a href="#clients">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>A SQUARE KILOMETER ROAD AREA ESTIMATOR</h1>
+                    <h2>This website is a free, open-source road area estimator, designed by Nicholas Greig, using the Google Maps API and the Namari Web Page template!</h2>
+                </div>
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>USABILITY</h3>
+                        <h2 class="section-title">How to use</h2>
+                        <p class="section-subtitle">To use this website, go to the maps page, drag the marker to the area of your choosing
+                            and then press the calculate button. 
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <!--Icon-->
+                        
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Don't worry!</h4>
+                            <p>We will handle the numbers, all you have to do is relax!</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Easy to Use</h4>
+                            <p>After a few seconds, the result will appear above the map!</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Additional handy calculator</h4>
+                            <p>You can also use the inbuilt calculator to do some quick estimations about the cost of repaving an area of the map
+                                at a price per square metre of your choosing. 
+                            </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Have a look!</h4>
+                            <p>You can check the validity of the estimation by entering your email address below the map, and requesting a copy of the image.
+                                You will get a satellite image of the area, with the discovered local and arterial(but not federal) road network overlaid on top!
+                            </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+
+        <!--Content Section-->
+        <div id="services" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+                    <input type = "button" class = "button" onclick="RoadCalc();" id = "CalculateButton" value="Click me to get the area of roads on the map">
+                    Road Area Found: <output type = 'text' id = 'ResultsPlace' name = "ResultsPlace"> Please click the button to the left to get an area estimation</output>
+        
+
+                    <div id="map"></div>
+                    <body style= "font-family:Verdana, Geneva, Tahoma, sans-serif">
+                        If you want an image of the road network, just give us your email and click the button below! Only do this after clicking the button above the map!
+                            Enter your email here: <input type="text" id="Email" name = "Email" value = "example@email.com"><br>
+                            <input type = "button" class = "button" onclick="SendMail();" id = "MailButton" value="Click me to get an email!">
+                  
+
+                    
+    <script src = "/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+      var map;
+      var marker;
+      var DrawSquare;
+      var drawn = false;
+      function initMap() {
+       map = new google.maps.Map(document.getElementById('map'), {
+         //center: {lat:-38.1744232, lng: 145.1096401},//-38.1744232,145.1096401
+          center: {lat: -37.9106906, lng: 145.1348676}, 
+          zoom: 16,          
+        });       
+
+        marker = new google.maps.Marker({
+            position:  {lat: -37.9106906, lng: 145.1348676},
+            map: map,
+            animation: google.maps.Animation.DROP,
+            title: 'Drag me!',
+            draggable: true
+          });  
+          marker.addListener('dragstart',function(e){
+            if (drawn == true){
+              DrawSquare.setMap(null);
+            }
+              drawn = false;
+
+          })
+
+          marker.addListener('dragend', function() {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+            setTimeout(function(){ marker.setAnimation(null); }, 300);  
+            map.setCenter(marker.getPosition());
+            var InitialLat = marker.getPosition().lat()
+            var InitialLong = marker.getPosition().lng()
+            var BottomLat = InitialLat - 0.00449157829;
+            var TopLat = InitialLat + 0.00449157829;
+            var LongKm = 0.5*(360/(Math.cos(InitialLat*Math.PI/180)*40075));
+            var LeftLong = InitialLong - LongKm;
+            var RightLong = InitialLong + LongKm;
+            var SquareCoordinates = [
+              {lat: TopLat, lng: LeftLong},
+              {lat: BottomLat, lng: LeftLong},
+              {lat: BottomLat, lng: RightLong},
+              {lat: TopLat, lng: RightLong},
+              {lat: TopLat, lng: LeftLong}
+            ];
+            DrawSquare = new google.maps.Polyline({
+            path: SquareCoordinates,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        DrawSquare.setMap(map)
+        drawn = true;
+      });
+    }
+    function SendMail(){
+        var address = document.getElementById('Email').value;
+        socket.emit('SendEmail',address)
+    }
+      function RoadCalc(){
+          
+        document.getElementById('ResultsPlace').innerHTML= "Calculating! Please wait a few seconds!"
+        socket.emit('RoadCalculate',marker.getPosition());
+        
+    }
+    function DisplayCalculation(){
+      Area = document.getElementById('Area').value;
+      Cost = document.getElementById('Cost').value; 
+      TotalCost = roundTo(Area * Cost,2);
+      document.getElementById('TotalCost').innerHTML = String(TotalCost);  
+}
+
+    function roundTo(n, digits) {
+        if (digits === undefined) {
+            digits = 0;
+        }
+
+        var multiplicator = Math.pow(10, digits);
+        n = parseFloat((n * multiplicator).toFixed(11));
+        return Math.round(n) / multiplicator;
+    }
+    socket.on('RoadResults',function(data){
+      document.getElementById('ResultsPlace').innerHTML= "The result, in square metres is : " + roundTo(data,2);
+      
+      document.getElementById('Area').value = roundTo(data,2);
+
+    })
+    </script>
+
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB884QYCl7nOz3XlYp1aVRufvlZdHNozjA&callback=initMap">
+    </script>
+               
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+        <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
+
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>CALCULATIONS</h3>
+                    <h2 class="section-title">How much will repaving those roads cost?</h2>
+                </div>
+
+                <body style= "font-family:Verdana, Geneva, Tahoma, sans-serif">
+                        Road Area (in square metres): <input type="number" id="Area" value="0" ><br>
+                        Cost of repaving (AUD/square metre): <input type="number" id="Cost" value="0" ><br>
+                        <input type="button button4" class = "button button4"  id = 'Calculator' value="Calculate Estimate" onclick='DisplayCalculation()'>
+                        Total Cost: $<output type = 'text' id = 'TotalCost' name = "TotalCost">0</output>
+                    </div>
+
+            </div>
+
+        </aside>
+        <!--End of Testimonials-->
+
+        <!--Clients-->
+        <section id="clients" class="scrollto clearfix">
+            <div class="row clearfix">
+
+                <div class="col-3">
+
+                    <div class="section-heading">
+                        <h3>Contact</h3>
+                        <h2 class="section-title">To get in contact</h2>
+                        <p class="section-subtitle">To get in contact with the creator of this project, head to the project's github page. This will be created
+                            and linked here at the end of the semester, to prevent plagiarism.
+                        </p>
+                        <p>
+                            
+                        </p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--End of Clients-->
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Made with love by Nicholas Greig</a></p>
+
+        
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>

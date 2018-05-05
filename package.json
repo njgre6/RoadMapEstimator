@@ -1,0 +1,21 @@
+{
+  "name": "fit3036",
+  "version": "1.0.0",
+  "description": "an app to estimate the area of road in a given area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Greig",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "delete": "^1.1.0",
+    "express": "^4.16.3",
+    "geolib": "^2.0.24",
+    "global": "^4.3.2",
+    "jimp": "^0.2.28",
+    "nodemailer": "^4.6.4",
+    "socketio": "^1.0.0"
+  }
+}
